@@ -24,20 +24,13 @@ Dynamic chart selection for line charts, bar charts, and histograms.
 Choose columns to visualize relationships between specific features.
 How to Use the Application
 Clone the repository to your local machine.
-bash
-Copy
-Edit
 https://github.com/SUMANTH1543/Automate_DataAnalysis.git
 Navigate to the project directory.
-bash
-Copy
-Edit
+
 cd automate_DataAnalysis
 # Install the required dependencies.
 # pip install -r requirements.txt
 Run the Streamlit app.
-Copy
-Edit
 streamlit run application.py
 Upload your dataset (.csv or .xlsx) and start exploring the data.
 Dependencies
@@ -48,26 +41,18 @@ Plotly
 Matplotlib
 Seaborn
 Openpyxl (for .xlsx support)
-Install all dependencies using:
-
+# Install all dependencies using:
 nginx
-Copy
-Edit
 pip install -r requirements.txt
-Project Structure
-bash
-Copy
-Edit
+# Project Structure:
 📂 Automated Data Analysis  
  ┣ 📜 application.py           # Main Streamlit app script  
  ┣ 📜 requirements.txt         # Python dependencies  
  ┗ 📜 README.md                # Project documentation  
 Sample Visualizations
 # 1. Correlation Matrix
-
 # 2. Scatter Plot
-
-Future Enhancements
+# Future Enhancements
 Add predictive modeling features.
 Support for more file formats (.json, .sql).
 Integration with cloud storage for large datasets.
